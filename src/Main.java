@@ -8,7 +8,7 @@ public class Main {
         int ussayi= scanner.nextInt();
 
         double deger=ushesabi(tabansayi,ussayi);
-        System.out.println(deger);
+        System.out.println(tabansayi + "^" + ussayi + "=" + deger);
     }
     private static double ushesabi(int sayi,int us){
         if (us==0) return 1;
